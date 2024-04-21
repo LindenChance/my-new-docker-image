@@ -40,7 +40,7 @@ RUN apt-get install -y gcc python$PYVER-dev && \
     pip install numpy \
     matplotlib \
     pandas \
-    tensorflow \
+    tensorflow-cpu \
     scikit-learn \
     jupyterlab \
     notebook
